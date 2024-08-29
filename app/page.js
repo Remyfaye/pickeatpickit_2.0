@@ -16,7 +16,7 @@ export default function Home() {
           src="../../assets/logo.png"
           alt="dd"
         />
-        <div className="max-w-3xl lg:flex justify-center lg:top-[50%] items-center  flex-col m-auto top-[75vh] relative ">
+        <div className="max-w-3xl lg:flex justify-center lg:top-[50%] items-center  flex-col m-auto top-[65vh] relative ">
           <h1 className="text-4xl text-white mb-10 font-bold">
             Taking Orders for Fast Deliveries
           </h1>

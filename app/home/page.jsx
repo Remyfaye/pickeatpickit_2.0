@@ -13,6 +13,11 @@ function Home() {
       <div className="p-5 max-w-3xl m-auto">
         <Header />
         <FirstCarousel />
+        <div className="text-gray-400 mb-5">
+          <h1>Special Offer</h1>
+          <img className="w-full " src="./assets/home/Group 16.png" alt="ss" />
+        </div>
+
         <FeaturedSellers />
         <KitchensNearYou />
       </div>
