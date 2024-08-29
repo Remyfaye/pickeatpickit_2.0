@@ -5,8 +5,8 @@ function Header() {
   return (
     <div>
       <div className="flex justify-between">
-        <div className="bg-gray-100 rounded-xl p-3">
-          <img />
+        <div className="bg-gray-100 rounded-xl p-3 flex items-center gap-1">
+          <img src="./assets/profile.png" alt="ss" />
           <p>Welcome, notjustomt</p>
         </div>
         <div className="bg-gray-100 rounded-xl p-3">
