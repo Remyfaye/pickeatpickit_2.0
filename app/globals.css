@@ -17,15 +17,26 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 
+/* Hide scrollbar for IE, Edge, and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.btn {
+  @apply bg-green-800 py-3 px-5 w-full rounded-xl text-white;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
