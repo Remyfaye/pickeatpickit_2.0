@@ -1,10 +1,11 @@
 import { foodList, kitchensNearYouList } from "@/constants";
+import Link from "next/link";
 import React from "react";
 
 function Food() {
   return (
     <div className="mt-7">
-      <h1 className="text-gray-400">Kitchens near you </h1>
+      <h1 className="text-gray-400">Popular dishes </h1>
       <div className="  mt-5 ">
         {/* Enable horizontal scrolling */}
         {foodList.map((item) => (
@@ -19,7 +20,9 @@ function Food() {
               alt={item.name}
             />
             <div>
-              <p className="my-2">{item.name}</p>
+              <Link href={`/food/${item.id}`} className="my-2 capitalize">
+                {item.name}
+              </Link>
               <p className="my-2">Arrival in 20 minutes</p>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import { kitchensNearYouList } from "@/constants";
+import Link from "next/link";
 import React from "react";
 
 function KitchensNearYou() {
@@ -19,7 +20,9 @@ function KitchensNearYou() {
               alt={item.name}
             />
             <div>
-              <p className="my-2">{item.name}</p>
+              <Link href={`/resturant/${item.id}`} className="my-2">
+                {item.name}
+              </Link>
               <p className="my-2">Arrival in 20 minutes</p>
             </div>
           </div>

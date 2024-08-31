@@ -21,7 +21,7 @@ export default function Home() {
             Taking Orders for Fast Deliveries
           </h1>
           <Link href="/home">
-            <button className="btn mx-auto   w-[80%]">Get Started</button>
+            <button className="btn mx-auto  w-full">Get Started</button>
           </Link>
         </div>
       </div>

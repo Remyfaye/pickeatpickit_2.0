@@ -1,4 +1,5 @@
 import { homelist } from "@/constants";
+import Link from "next/link";
 import React from "react";
 
 function FirstCarousel() {
@@ -16,7 +17,9 @@ function FirstCarousel() {
             src={item.img}
             alt={item.name}
           />
-          <p className="my-2">{item.name}</p>
+          <Link href={`/homeList/${item.id}`} className="my-2">
+            {item.name}
+          </Link>
         </div>
       ))}
     </div>

@@ -5,6 +5,7 @@ import FirstCarousel from "./FirstCarousel";
 import FeaturedSellers from "./FeaturedSellers";
 import KitchensNearYou from "./KitchensNearYou";
 import Sidebar from "@/components/Sidebar";
+import Food from "../search/Food";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
 
         <FeaturedSellers />
         <KitchensNearYou />
+        <Food />
       </div>
     </div>
   );
