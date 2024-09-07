@@ -3,12 +3,12 @@ import React from "react";
 
 function page() {
   return (
-    <div className="p-5">
+    <div>
       <div className="">
         <img alt="" />
-        <p className="text-center font-bold text-lg">Cart</p>
+        <p className="text-center font-bold text-lg py-5  border-b-2">Cart</p>
       </div>
-      <div>
+      <div className="p-5">
         {foodList.map((item) => (
           <div className="border-b-2 my-3 py-4 flex  gap-10">
             <div className="flex gap-5">
