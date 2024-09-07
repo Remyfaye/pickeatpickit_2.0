@@ -12,9 +12,22 @@ function Header() {
         <div className="bg-gray-100 rounded-xl p-3">
           <img />
           <img />
-          <Link className="flex justify-center items-center" href="/search">
-            <img className="w-full m-auto" src="./assets/search.png" alt="ss" />
-          </Link>
+          <div className="flex justify-center items-center">
+            <Link href="/search">
+              <img
+                className="w-full m-auto"
+                src="./assets/search.png"
+                alt="ss"
+              />
+            </Link>
+            <Link href="/cart">
+              <img
+                className="w-full m-auto"
+                src="./assets/icons/cart.png"
+                alt="ss"
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>

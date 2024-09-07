@@ -35,7 +35,7 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 .btn {
-  @apply bg-[#228B22] py-3 px-5  rounded-xl text-white;
+  @apply bg-[#228B22] py-4 px-5  rounded-xl text-white;
 }
 .btn-full {
   @apply bg-[#228B22] py-1 text-sm px-8  rounded-full text-white;

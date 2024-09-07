@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="text-4xl text-white mb-10 font-bold">
             Taking Orders for Fast Deliveries
           </h1>
-          <Link href="/home">
+          <Link href="/onBoarding">
             <button className="btn mx-auto  w-full">Get Started</button>
           </Link>
         </div>

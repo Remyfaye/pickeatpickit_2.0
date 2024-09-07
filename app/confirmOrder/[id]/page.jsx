@@ -60,7 +60,7 @@ function page() {
         {/* buttons */}
         <div className="flex justify-between mt-20">
           <button className="btn-trans">Cancel order</button>
-          <button className="btn">Pay now</button>
+          <button className="btn">Checkout</button>
         </div>
       </div>
     </div>

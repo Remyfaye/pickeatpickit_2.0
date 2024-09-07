@@ -25,9 +25,9 @@ function page() {
       {/* floater  */}
       <div className="bg-white items-center rounded-xl shadow-xl m-7 p-5 relative top-[10rem] flex justify-between">
         <div>
-          <p className="font-bold"> {kitchen.name}</p>
+          <p className="font-bold capitalize text-xl"> {kitchen.name}</p>
           <p>
-            <p className="my-3 text-sm ">Lekki Phase 1, Lagos Nigeria</p>
+            <p className="my-3 text-sm ">N{kitchen.price}</p>
           </p>
         </div>
         <div>
@@ -60,7 +60,7 @@ function page() {
 
       {/* call to action */}
       <button className="text-xl btn w-[70%] m-auto flex justify-center relative bottom-[-7%] ">
-        <Link href={`/confirmOrder/${id}`}>Order</Link>
+        <Link href={`/confirmOrder/${id}`}>Add to cart</Link>
       </button>
     </div>
   );

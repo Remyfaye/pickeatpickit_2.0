@@ -126,6 +126,21 @@ const searchToggOptions = [
   },
 ];
 
+const onBoardingToggOptions = [
+  {
+    name: "user",
+  },
+  {
+    name: "vendor",
+  },
+  {
+    name: "rider",
+  },
+  {
+    name: "admin",
+  },
+];
+
 const searchAll = [
   {
     id: "1",
@@ -166,11 +181,14 @@ const foodList = [
     name: "rice",
     description:
       " made of thinly sliced meat (usually beef, chicken, or lamb) that is slow-cooked on a vertical rotisserie. The meat is often served in a wrap or pita bread, along with various toppings like lettuce, tomatoes, onions, pickles, and sauces like garlic sauce or tahini",
+    price: "5000",
   },
   {
     id: "2",
     img: "/assets/search/fish.jpg",
     name: "fish",
+    price: "2000",
+
     description:
       "Providing top-notch plumbing services that effectively convey and promote our clients product, vision, and lifestyle, strengthening brand recognition",
   },
@@ -178,6 +196,8 @@ const foodList = [
     id: "3",
     img: "/assets/search/pasta.jpg",
     name: "pasta",
+    price: "3000",
+
     description:
       " made of thinly sliced meat (usually beef, chicken, or lamb) that is slow-cooked on a vertical rotisserie. The meat is often served in a wrap or pita bread, along with various toppings like lettuce, tomatoes, onions, pickles, and sauces like garlic sauce or tahini",
   },
@@ -185,6 +205,8 @@ const foodList = [
     id: "4",
     img: "/assets/search/bbq.jpg",
     name: "bbq",
+    price: "15000",
+
     description:
       "made of thinly sliced meat (usually beef, chicken, or lamb) that is slow-cooked on a vertical rotisserie. The meat is often served in a wrap or pita bread, along with various toppings like lettuce, tomatoes, onions, pickles, and sauces like garlic sauce or tahini",
   },
@@ -192,6 +214,8 @@ const foodList = [
     id: "5",
     img: "/assets/search/deserts.jpg",
     name: "Cake",
+    price: "12000",
+
     description:
       "made of thinly sliced meat (usually beef, chicken, or lamb) that is slow-cooked on a vertical rotisserie. The meat is often served in a wrap or pita bread, along with various toppings like lettuce, tomatoes, onions, pickles, and sauces like garlic sauce or tahini",
   },
@@ -199,6 +223,8 @@ const foodList = [
     id: "5",
     img: "/assets/search/breakfast.jpg",
     name: "pancakes",
+    price: "2500",
+
     description:
       "made of thinly sliced meat (usually beef, chicken, or lamb) that is slow-cooked on a vertical rotisserie. The meat is often served in a wrap or pita bread, along with various toppings like lettuce, tomatoes, onions, pickles, and sauces like garlic sauce or tahini",
   },
@@ -226,4 +252,5 @@ export {
   kitchensNearYouList,
   searchAll,
   sidebarNav,
+  onBoardingToggOptions,
 };

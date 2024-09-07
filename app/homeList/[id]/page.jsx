@@ -60,7 +60,7 @@ function page() {
 
       {/* call to action */}
       <button className="bottom-[-7%] text-xl btn w-[70%] m-auto flex justify-center  relative  ">
-        <Link href={`/confirmOrder/${id}`}>Order</Link>
+        <Link href={`/confirmOrder/${id}`}>Add to cart</Link>
       </button>
     </div>
   );
